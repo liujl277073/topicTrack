@@ -29,7 +29,7 @@ MANIFEST
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
+i*.manifest
 *.spec
 
 # Installer logs
@@ -151,6 +151,32 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# ===== YOLOX-Track 项目额外配置（重点）=====
+YOLOX_outputs/
+results/
+run/
+exps/
+figs/
+data/
+datasets/
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.onnx
+*.engine
+.vscode/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.mp4
+*.avi
+*.jpg
+*.jpeg
+*.png
+*.bmp
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
